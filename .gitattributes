@@ -1,1 +1,5 @@
 depthai.mvcmd filter=lfs diff=lfs merge=lfs -text
+*.tar.xz filter=lfs diff=lfs merge=lfs -text
+*.sha256 filter=lfs diff=lfs merge=lfs -text
+*.checksum filter=lfs diff=lfs merge=lfs -text
+*.txt filter=lfs diff=lfs merge=lfs -text
